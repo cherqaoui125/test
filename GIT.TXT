@@ -1,0 +1,41 @@
+// Afficher les branches locales et distantes
+
+		git branch -a
+		
+// Annuler les modifications sur un fichier
+
+		git checkout <filename>
+		
+// Renseigner dans la configuration du depot local le depot distant auquel il faut se referer
+
+		git remote add <REMOTE_REPO_URL>
+		
+	
+// Envoyer les modifications au depot distant
+
+
+		git push <REPO_NAME> <LOCAL_BRANCH_NAME> (Exp : git push origine master)
+	
+// Recuperer les modification à partir d'un depot distant
+
+		git pull
+		
+// Editer les modifications entre le working copy et ce qui present dans le dernier commit
+
+		git diff
+		
+// Afficher les URL des depots distants
+
+		git remote -v
+		
+// Ignorer le suivi des fichiers (Exp : Fichiers logs)
+
+	** Creer le fichier .gitignore dans la racine du working copy
+	
+	** Ajouter le() chemin(s) des fichiers/dossiers à exclure du suivi
+	
+	
+// Option dry-run : Visualiser le resultat d'une commande sans l'appliquer
+
+	--dry-run
+	
